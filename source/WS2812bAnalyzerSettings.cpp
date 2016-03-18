@@ -6,7 +6,7 @@ WS2812bAnalyzerSettings::WS2812bAnalyzerSettings()
 	:	mInputChannel( UNDEFINED_CHANNEL )
 {
 	mInputChannelInterface.reset( new AnalyzerSettingInterfaceChannel() );
-	mInputChannelInterface->SetTitleAndTooltip( "Serial", "Standard WS2812b" );
+	mInputChannelInterface->SetTitleAndTooltip( "WS2812b", "Standard WS2812b" );
 	mInputChannelInterface->SetChannel( mInputChannel );
 
 	mShowLedNumberInterface.reset(new AnalyzerSettingInterfaceBool());
