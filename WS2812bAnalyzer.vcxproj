@@ -157,6 +157,9 @@
     <ClInclude Include="source\WS2812bAnalyzerSettings.h" />
     <ClInclude Include="source\WS2812bSimulationDataGenerator.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
